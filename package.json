@@ -1,0 +1,22 @@
+{
+  "name": "webpack-configuration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack server --config webpack.dev.js",
+    "deploy": "git subtree push --prefix dist orign gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebygabriel832/webpack-configuration.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codebygabriel832/webpack-configuration/issues"
+  },
+  "homepage": "https://github.com/codebygabriel832/webpack-configuration#readme"
+}
